@@ -1,0 +1,289 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Music App</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<h1>This website is designed and developed by <a href="https://www.instagram.com/er_adityajn/">Aditya Jain</a></h1>
+<div class="music-container">
+
+	<div class="music-header">
+		<i class="fa fa-angle-left"></i>
+        	<div class="title">
+            	<p>My Music</p>
+            </div>
+        	<i class="fa fa-search"></i>
+	</div>
+    <div class="music-playlist">
+    	<div class="music-menu text-center">
+    		<div class="menu">
+        		<ul>
+            		<li><a href="#">Songs</a></li>
+                	<li><a href="#">Albums</a></li>
+            		<li><a href="#">Artist</a></li>
+            		<li><a href="#">Generes</a></li>
+           	 	</ul>
+        	</div>
+    	</div>
+        <div class="music-box">
+        	<div class="music-info">
+            	<div class="music-img">
+                	<img src="1.jpg">
+                </div>
+                <div class="a music-name">
+                <h6>Girls Like You</h6>
+                	<p>ft Maroon 5</p>
+                </div>
+                <i class="fa fa-ellipsis-v"></i>
+            </div><hr>
+            
+            <div class="music-info">
+            	<div class="music-img">
+                	<img src="2.jpg">
+                </div>
+                <div class="b music-name">
+                <h6>Memories</h6>
+                	<p>ft Maroon 5</p>
+                </div>
+                <i class="fa fa-ellipsis-v"></i>
+            </div><hr>
+                     
+            <div class="music-info">
+            	<div class="music-img">
+                	<img src="3.jpg">
+                </div>
+                <div class="c music-name">
+                <h6>Marshmello</h6>
+                	<p>ft Bastille</p>
+                </div>
+                <i class="fa fa-ellipsis-v"></i>
+            </div><hr>
+            
+            <div class="music-info">
+            	<div class="music-img">
+                	<img src="4.jpg">
+                </div>
+                <div class="d music-name">
+                <h6>Faded</h6>
+                	<p>Alon Walker</p>
+                </div>
+                <i class="fa fa-ellipsis-v"></i>
+            </div><hr>
+            
+            <div class="music-info">
+            	<div class="music-img">
+                	<img src="5.jpg">
+                </div>
+                <div class="e music-name">
+                <h6>Perfect</h6>
+                	<p>Ed Sheeran</p>
+                </div>
+                <i class="fa fa-ellipsis-v"></i>
+            </div><hr>
+            
+            <div class="music-info">
+            	<div class="music-img">
+                	<img src="6.jpg">
+                </div>
+                <div class="f music-name">
+                <h6>Alone</h6>
+                	<p>Marshmello</p>
+                </div>
+                <i class="fa fa-ellipsis-v"></i>
+            </div><hr>
+            
+            <div class="music-info">
+            	<div class="music-img">
+                	<img src="7.jpg">
+                </div>
+                <div class="g music-name">
+                <h6>Satisfy</h6>
+                	<p>ft Imran Khan</p>
+                </div>
+                <i class="fa fa-ellipsis-v"></i>
+            </div><hr>
+            
+            <div class="music-info">
+            	<div class="music-img">
+                	<img src="8.jpg">
+                </div>
+                <div class="h music-name">
+                <h6>Let Me Love You</h6>
+                	<p>ft. DJ Snake</p>
+                </div>
+                <i class="fa fa-ellipsis-v"></i>
+            </div><hr>
+            
+            <div class="music-info">
+            	<div class="music-img">
+                	<img src="9.jpg">
+                </div>
+                <div class="i music-name">
+                <h6>Despacito</h6>
+                	<p>ft. Louis Fonsi</p>
+                </div>
+                <i class="fa fa-ellipsis-v"></i>
+            </div><hr>
+            
+            <div class="music-info">
+            	<div class="music-img">
+                	<img src="10.jpg">
+                </div>
+                <div class="j music-name">
+                <h6>Teri Yaari</h6>
+                	<p>Milind Gaaba</p>
+                </div>
+                <i class="fa fa-ellipsis-v"></i>
+            </div><hr>
+            
+            <div class="music-info">
+            	<div class="music-img">
+                	<img src="11.jpg">
+                </div>
+                <div class="k music-name">
+                <h6>Khayal Tera Mujhe Soney Nahi Deta</h6>
+                	<p>Anonymous</p>
+                </div>
+                <i class="fa fa-ellipsis-v"></i>
+            </div>
+        </div>
+	</div>
+  	  <div class="music-play">
+    	<div class="play-image">
+        	<img src="4.jpg">
+        </div>
+        <div class="play-controls">
+        	 <div class="controls">
+             	<div class="song-name">
+                	<h5>Faded</h5>
+                    <p>Alan Walker</p>
+                </div>
+                <div class="play-icon">
+                	<i class="fa fa-step-backward"></i>
+                    <i class="fa fa-play"></i>
+                    <i class="fa fa-step-forward"></i>
+                </div>
+        	</div>
+            <div class="music-progress">
+            	<div class="progress">
+                	<div class="progress-bar"></div>
+                </div>
+            </div>
+        </div>
+   	 </div>
+</div>
+<script>
+var divlength = document.querySelectorAll('.music-name').length;
+console.log(divlength);
+for(var i=0; i<divlength; i++){
+	var demo = document.querySelectorAll('.music-name')[i].addEventListener('click',playsong);
+	}
+
+var song1 = new Audio();
+song1.src="a.mp3";
+
+var song2 = new Audio();
+song2.src="b.mp3";
+
+var song3 = new Audio();
+song3.src="c.mp3";
+
+var song4 = new Audio();
+song4.src="d.mp3";
+
+var song5 = new Audio();
+song5.src="e.mp3";
+
+var song6 = new Audio();
+song6.src="f.mp3";
+
+var song7 = new Audio();
+song7.src="g.mp3";
+
+var song8 = new Audio();
+song8.src="h.mp3";
+
+var song9 = new Audio();
+song9.src="i.mp3";
+
+var song10 = new Audio();
+song10.src="j.mp3";
+
+var song11 = new Audio();
+song11.src="k.mp3";
+
+
+function playsong(){
+	var songId= this.innerHTML;
+	
+	switch(songId){
+		case "a":
+				song1.play();
+				break;
+			
+		case "b":
+				song2.play();
+				break;
+			
+		case "c":
+				song3.play();
+				break;
+			
+		case "d":
+				song4.play();
+				break;
+			
+		case "e":
+				song5.play();
+				break;
+			
+		case "f":
+				song6.play();
+				break;
+			
+		case "g":
+			song7.play();
+			break;
+			
+		case "h":
+				song8.play();
+				break;
+			
+		case "i":
+				song9.play();
+				break;
+			
+		case "j":
+				song10.play();
+				break;
+			
+		case "k":
+				song11.play();
+				break;
+		default: 
+				console.log("wrong input");
+				break;
+		}
+	}
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
